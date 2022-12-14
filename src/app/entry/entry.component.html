@@ -1,0 +1,22 @@
+<table>
+  <tr>
+    <th>Description</th>
+    <td>{{api.Description}}</td>
+  </tr>
+  <tr>
+    <th>API</th>
+    <td>{{api.API}}</td>
+  </tr>
+  <tr>
+    <th>Link</th>
+    <td><a href="{{api.Link}}" target="_other">{{api.Link}}</a></td>
+  </tr>
+  <tr>
+    <th>Authentication</th>
+    <td>{{api.Auth}}</td>
+  </tr>
+  <tr *ngIf="showCategory">
+    <th>Category</th>
+    <td>{{api.Category}}</td>
+  </tr>
+</table>
